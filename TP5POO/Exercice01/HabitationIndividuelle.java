@@ -1,4 +1,4 @@
-package Exercice01;
+package TP5POO.Exercice01;
 
 public class HabitationIndividuelle extends Habitation {
     int nbPieces;

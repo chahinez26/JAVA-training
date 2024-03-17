@@ -1,4 +1,4 @@
-package Exercice01;
+package TP5POO.Exercice01;
 
 public class Classe_Principale {
     public static void main(String[] args) {
