@@ -1,14 +1,13 @@
 package TP5POO.exercice02;
 
-import java.util.Date;
 public class Employe {
      protected String nom;
      protected String prenom;
      protected int age;
-     protected Date Date_Entree;
+     protected String Date_Entree;
 
 
-    public Employe (String n, String pr,int a, Date d) {
+    public Employe (String n, String pr,int a, String d) {
     this.nom = n;
     this.prenom = pr;
     this.age = a;

@@ -1,10 +1,9 @@
 package TP5POO.exercice02;
 
-import java.util.Date;
 
 public class Representant extends EmployeComercial{
 
-    public Representant (String nom, String prenom, int age, Date dateEntree, double chiffreAffaire) {
+    public Representant (String nom, String prenom, int age, String dateEntree, double chiffreAffaire) {
         super(nom, prenom, age, dateEntree, chiffreAffaire);
     }
 

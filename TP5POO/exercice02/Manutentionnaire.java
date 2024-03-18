@@ -1,12 +1,11 @@
 package TP5POO.exercice02;
-import java.util.Date;
 
 public class Manutentionnaire extends Employe{
     private int nbHeure;
 
     public Manutentionnaire( ) {}
 
-    public Manutentionnaire(String nom, String prenom, int age, Date dateEntree, int nbHeure) {
+    public Manutentionnaire(String nom, String prenom, int age, String dateEntree, int nbHeure) {
         super(nom, prenom, age, dateEntree);
         this.nbHeure = nbHeure;
     }

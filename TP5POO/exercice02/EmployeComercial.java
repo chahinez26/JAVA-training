@@ -1,5 +1,4 @@
 package TP5POO.exercice02;
-import java.util.Date;
 
 
 //classe intermédiaire
@@ -8,7 +7,7 @@ public class EmployeComercial extends Employe {
 
     public EmployeComercial ( ) {}
 
-    public EmployeComercial (String nom, String prenom, int age, Date dateEntree, double chiffreAffaire) {
+    public EmployeComercial (String nom, String prenom, int age, String dateEntree, double chiffreAffaire) {
         super(nom, prenom, age, dateEntree);
         this.chiffreAffaire = chiffreAffaire;
     }

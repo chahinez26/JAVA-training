@@ -1,10 +1,10 @@
 package TP5POO.exercice02;
 
-import java.util.Date;
+
 
 public class Production_Danger extends Technicien implements EmployeARisque{
 
-    public Production_Danger(String nom, String prenom, int age, Date dateEntree, int nbUnitesProduites) {
+    public Production_Danger(String nom, String prenom, int age, String dateEntree, int nbUnitesProduites) {
         super(nom, prenom, age, dateEntree, nbUnitesProduites);
     }
 
